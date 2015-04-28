@@ -23,7 +23,7 @@ public class XMLGenerator {
 
     public static void main(String args[]) {
         XMLGenerator xmlGenerator = new XMLGenerator();
-        xmlGenerator.convertFile("C:\\Users\\insys_2\\Desktop\\CSV_Sample1.csv","C:\\Users\\insys_2\\Desktop\\ajay.xml",
+        xmlGenerator.convertFile("C:\\Users\\ajay\\Desktop\\CSV_Sample1.csv","C:\\Users\\ajay\\Desktop\\ajay.xml",
                 "firstName,lastName,email,age",",");
     }
 
